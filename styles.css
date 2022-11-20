@@ -2,7 +2,6 @@ body {
     font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
     font-size: 1.6rem;
     line-height: 1.5;
-    text-align: center;
     color: #333;
     margin: 0;
 }
@@ -17,6 +16,11 @@ main {
 h1 {
     font-size: 4rem;
     margin-bottom: 0;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
 }
 
 p {
@@ -39,3 +43,16 @@ img {
     height: auto;
     margin: 0 auto;
 }
+
+ li {
+    text-align: left;
+    margin-top: 15px;
+ }
+
+ li:last-child {
+    margin-bottom: 100px;
+ }
+
+ p:last-child {
+    margin-top: 100px;
+ }
